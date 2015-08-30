@@ -38,6 +38,14 @@ if ( file_exists( CONF_PATH . '/http11-config.php' ) ) {
  */
 define('WP_DEBUG', false);
 
+// Configure memcached
+$memcached_servers = array(
+    array(
+        '127.0.0.1',
+        11211,
+    ),
+);
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
