@@ -18,8 +18,10 @@
  * @package WordPress
  */
 
-if ( file_exists( '../../../https11-config.php' ) ) ) {
-    include( '../../../https11-config.php' );
+define( 'CONF_PATH', realpath( __DIR__ . '/../../' ) );
+
+if ( file_exists( CONF_PATH . '/http2-config.php' ) ) {
+    include( CONF_PATH . '/http2-config.php' );
 }
 
 /**
