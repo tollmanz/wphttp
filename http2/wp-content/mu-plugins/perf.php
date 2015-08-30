@@ -6,7 +6,6 @@ if ( ! is_admin() ) {
 }
 
 add_action( 'after_setup_theme', function() {
-    wp_deregister_style( 'twentysixteen-style' );
     wp_enqueue_style(
         'twentysixteen-style-critical',
         plugins_url( 'perf/critical.css', __FILE__ ),
