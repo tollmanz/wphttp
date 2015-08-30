@@ -18,8 +18,8 @@
  * @package WordPress
  */
 
-if ( '../../http2-config.php' ) ) {
-    include( '../../http2-config.php' );
+if ( file_exists( '../../../http2-config.php' ) ) ) {
+    include( '../../../http2-config.php' );
 }
 
 /**

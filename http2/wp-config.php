@@ -18,8 +18,8 @@
  * @package WordPress
  */
 
-if ( '../../https11-config.php' ) ) {
-    include( '../../https11-config.php' );
+if ( file_exists( '../../../https11-config.php' ) ) ) {
+    include( '../../../https11-config.php' );
 }
 
 /**
