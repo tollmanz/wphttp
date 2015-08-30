@@ -17,5 +17,6 @@ add_action( 'after_setup_theme', function() {
 add_action( 'wp_footer', function() {
     ?>
     <script id="twenty-sixteen-css">var ms=document.createElement("link");ms.rel="stylesheet";ms.href="https://http2.wphttp.com/wp-content/themes/twentysixteen/style.css?ver=4.3";document.getElementsByTagName("head")[0].appendChild(ms);</script>
+    <script id="twenty-sixteen-css">var ms=document.createElement("link");ms.rel="stylesheet";ms.href="https://http2.wphttp.com/wp-content/themes/twentysixteen/genericons/genericons.css?ver=3.3";document.getElementsByTagName("head")[0].appendChild(ms);</script>
     <?php
-} );
+}, 100 );
