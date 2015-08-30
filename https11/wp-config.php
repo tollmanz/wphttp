@@ -38,6 +38,9 @@ if ( file_exists( CONF_PATH . '/https11-config.php' ) ) {
  */
 define('WP_DEBUG', false);
 
+// Turn on page caching
+define( 'WP_CACHE', true );
+
 // Configure memcached
 $memcached_servers = array(
     array(
